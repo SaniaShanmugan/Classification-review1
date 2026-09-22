@@ -1,0 +1,69 @@
+# ==============================================================================
+# Git Ignore Configuration — Loan Approval ML Capstone Project
+# ==============================================================================
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Packages
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipython/
+
+# Reference / External Project Files (Prevent Plagiarism / Unintended Commits)
+classification_gauri*
+*_gauri*
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+test_run_output.ipynb
